@@ -16,7 +16,7 @@
     width: 100%;
     max-width: 540px;
     background-color: #333;
-    height: 300px;
+    height: 350;
     border-radius: 10px;
 }
 .bmi-box h3 {
@@ -51,4 +51,25 @@
     background-color: coral;
     color: white;
     margin-bottom: 1rem;
+}
+
+.input-form .clear {
+    background-color: white;
+    color: black;
+    width: 5rem;
+    height: 2rem;
+}
+
+.input-form .calculate:hover {
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.input-form .clear:hover {
+    background-color: lightgray;
+    transition: 0.5s;
+}
+
+.hidden {
+    display: none;
 }
